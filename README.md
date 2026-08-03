@@ -1,0 +1,61 @@
+<div align="center">
+  <img src="assets/wemory-icon.png" width="112" alt="Wemory 图标">
+  <h1>Wemory</h1>
+  <p>本地读取、浏览、备份与导出微信数据的 Windows 桌面工具</p>
+  <p>
+    <a href="https://weibocloner.bytefuse.cn">产品官网</a> ·
+    <a href="https://github.com/ftyszyx/wemory-wechat-backup/releases/latest">下载最新版</a> ·
+    <a href="https://apps.bytefuse.cn/products/4">购买授权</a> ·
+    <a href="README_EN.md">English</a>
+  </p>
+</div>
+
+![Wemory 聊天数据浏览界面](assets/wemory-home.png)
+
+## Wemory 能做什么
+
+Wemory 面向希望在自己的电脑上整理微信资料的用户。应用在本机读取和处理微信数据，帮助你集中浏览并按需导出：
+
+- 聊天记录：浏览私聊、群聊和企业会话，导出为 HTML 或 PDF。
+- 朋友圈：按时间浏览朋友圈内容，导出为 HTML 或 PDF。
+- 通讯录：查看联系人，并将联系人和群成员导出为 XLSX。
+- 公众号：批量采集、整理并导出公众号文章。
+- 多媒体：在聊天记录中查看本地图片、视频和语音等内容。
+
+## 本地优先
+
+微信数据的读取、解密和导出均在本机完成，内容不会上传。联网仅用于应用更新、授权激活以及下载必要组件；导出文件由你自行选择保存位置。
+
+## 产品界面
+
+### 公众号采集任务
+
+![Wemory 公众号采集任务界面](assets/wemory-official-account.png)
+
+### 通讯录
+
+![Wemory 通讯录界面](assets/wemory-contacts.png)
+
+## 下载与安装
+
+1. 前往 [Releases](https://github.com/ftyszyx/wemory-wechat-backup/releases/latest) 下载 `Wemory_0.1.108_x64-setup.exe`。
+2. 在 Windows 10 或 Windows 11 x64 上运行安装程序。
+3. 启动 Wemory，按照界面提示连接本机微信数据目录。
+
+当前安装包尚未使用 Windows 代码签名证书签名，因此系统可能显示 Microsoft Defender SmartScreen 提示。请只从本仓库 Release 或产品官网下载，并核对文件校验值：
+
+```text
+SHA-256: 4FBF5E4835FBF2F0E0FF1C66D4DED7C6D0BE6459DA2A77368CB2161ACC4E39B3
+```
+
+## 系统要求
+
+- Windows 10 / 11 x64
+- Microsoft Edge WebView2 Runtime
+- 已在本机登录并产生数据的 Windows 微信客户端
+
+## 说明
+
+本仓库用于发布 Wemory 产品介绍、截图和安装包，不包含应用源代码。Wemory 不是微信官方产品，与腾讯或微信不存在隶属或合作关系。请仅处理你有权访问的数据，并遵守当地法律法规及相关服务条款。
+
+问题反馈请使用本仓库的 [Issues](https://github.com/ftyszyx/wemory-wechat-backup/issues)。
