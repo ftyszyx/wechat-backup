@@ -4,8 +4,7 @@
   <p>本地读取、浏览、备份与导出微信数据的 Windows 桌面工具</p>
   <p>
     <a href="https://wemory.bytefuse.cn/">产品官网</a> ·
-    <a href="https://github.com/ftyszyx/wemory-wechat-backup/releases/latest">下载最新版</a> ·
-    <a href="README_EN.md">English</a>
+    <a href="https://wemory.bytefuse.cn">下载最新版</a> ·
   </p>
 </div>
 
